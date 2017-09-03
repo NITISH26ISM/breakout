@@ -94,9 +94,7 @@ void moveahead(void){
     else if(ball_x >= tray_x -60 && ball_x <= tray_x + 60 && ball_y == 40){
         ball_vec_y *= -1;
     }
-//    else if(ball_y<=0){
-//        ball_vec_y *= -1;
-//    }
+
     ball_x += ball_vec_x;
     ball_y += ball_vec_y;
 
